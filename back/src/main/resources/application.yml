@@ -1,0 +1,16 @@
+managment:
+  endpoints:
+    exposure:
+      include: '*'
+
+  info:
+    env:
+      enabled: true
+  application:
+    name: spring-bibliotekaApp
+    description: Aplikacja do działania na bazie danych Biblioteka.
+    author: Kamil Dorszewski
+    version: '@project.version@'
+  spring:
+    profiles:
+      active: dev
